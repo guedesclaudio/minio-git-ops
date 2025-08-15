@@ -4,6 +4,7 @@ metadata:
   name: minio
   namespace: minio
 spec:
+  type: ClusterIP
   selector:
     app: minio
   ports:
